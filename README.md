@@ -6,7 +6,7 @@ cd Sistema-de-gerenciamento-de-emprestimos-de-livros
 
 npm install
 
-Configurar Banco
+Configurar Banco de dados:
 
 psql -U postgres
 
