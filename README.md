@@ -1,3 +1,12 @@
-echo # Sistema de Biblioteca da Malu > README.md
-echo. >> README.md
-echo API REST para gerenciamento de empréstimos de livros >> README.md
+INSTALAÇÃO:
+bashgit clone https://github.com/DornelassDev/Sistema-de-gerenciamento-de-emprestimos-de-livros.git
+cd Sistema-de-gerenciamento-de-emprestimos-de-livros
+npm install
+
+CONFIGURAÇÃO DO BANCO DE DADOS:
+bashpsql -U postgres
+CREATE DATABASE bibliotecamalu;
+\q
+
+INICIALIZAÇÃO:
+bashnpm start
